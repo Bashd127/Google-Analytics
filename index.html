@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
+        <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SZ3SZFJTL5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -10,189 +10,97 @@
 
   gtag('config', 'G-SZ3SZFJTL5');
 </script>
-
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Inspire & Impact</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    body {
-      background: #ffffff;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      color: white;
-      padding: 80px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      color: #ddd;
-    }
-
-    .section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    .section h2 {
-      text-align: center;
-      font-size: 2.2rem;
-      margin-bottom: 30px;
-      color: #2c3e50;
-    }
-
-    .about p, .cta p {
-      font-size: 1.1rem;
-      text-align: center;
-      max-width: 800px;
-      margin: auto;
-      color: #555;
-    }
-
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      justify-content: center;
-      margin-top: 40px;
-    }
-
-    .feature-card {
-      background: #f8f8f8;
-      padding: 30px;
-      border-radius: 10px;
-      width: 280px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
-
-    .feature-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .feature-card h3 {
-      color: #2980b9;
-      margin-bottom: 10px;
-    }
-
-    .feature-card p {
-      color: #666;
-      font-size: 0.95rem;
-    }
-
-    .cta {
-      background: #ecf0f1;
-      padding: 60px 20px;
-      text-align: center;
-      margin-top: 40px;
-      border-top: 1px solid #ddd;
-    }
-
-    .cta h2 {
-      margin-bottom: 20px;
-      color: #34495e;
-    }
-
-    .cta-btn {
-      margin-top: 25px;
-      background: #2980b9;
-      color: white;
-      border: none;
-      padding: 14px 28px;
-      font-size: 16px;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-
-    .cta-btn:hover {
-      background: #1f6694;
-    }
-
-    footer {
-      text-align: center;
-      padding: 25px 10px;
-      background: #2c3e50;
-      color: #ccc;
-      margin-top: 60px;
-    }
-
-    @media (max-width: 768px) {
-      .features {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      header h1 {
-        font-size: 2.2rem;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Products Landing Page</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for better aesthetics */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+        }
+    </style>
 </head>
-<body>
+<body class="min-h-screen flex flex-col items-center justify-center py-10 px-4">
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6M8QBSH"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-  <header>
-    <h1>Inspire & Impact</h1>
-    <p>Empowering minds. Transforming lives. One step at a time.</p>
-  </header>
+    <!-- Header Section -->
+    <header class="text-center mb-12">
+        <h1 class="text-5xl font-extrabold text-gray-900 leading-tight">
+            Discover Our Cutting-Edge Tech
+        </h1>
+        <p class="mt-4 text-xl text-gray-600">
+            Innovate, Create, and Elevate Your Digital Experience.
+        </p>
+    </header>
 
-  <section class="section about">
-    <h2>Our Mission</h2>
-    <p>
-      In a fast-paced world full of noise and distractions, we bring clarity and purpose. Our mission is to inspire individuals, elevate communities, and leave a meaningful impact through digital innovation, personal growth, and authentic connection.
-    </p>
-  </section>
+    <!-- Products Section -->
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl w-full">
 
-  <section class="section services">
-    <h2>What We Offer</h2>
-    <div class="features">
-      <div class="feature-card">
-        <h3>Inspiring Content</h3>
-        <p>Daily blogs and resources to fuel your passion and purpose. Read, reflect, and grow with our community-driven insights.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Personal Coaching</h3>
-        <p>We help you define goals, break mental barriers, and unlock your full potential through structured and supportive guidance.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Digital Solutions</h3>
-        <p>From websites to branding — we craft experiences that resonate. Creative and functional design that tells your story.</p>
-      </div>
-    </div>
-  </section>
+        <!-- Product 1: SuperPhone X -->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col md:flex-row">
+            <div class="p-6 md:p-8 flex-1">
+                <h2 class="text-3xl font-bold text-gray-800 mb-3">SuperPhone X</h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Experience the future of mobile technology with the SuperPhone X. Boasting an ultra-fast processor, stunning edge-to-edge display, and an AI-powered camera system, it redefines what a smartphone can do.
+                </p>
+                <ul class="list-disc list-inside text-gray-700 mb-6 space-y-1">
+                    <li>6.7-inch Pro XDR Display</li>
+                    <li>A16 Bionic Chip</li>
+                    <li>Triple 48MP Camera System</li>
+                    <li>All-day Battery Life</li>
+                </ul>
+                <div class="flex items-center justify-between">
+                    <span class="text-4xl font-extrabold text-indigo-700">$999</span>
+                    <a href="product1-details.html" class="bg-indigo-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-700 transition duration-300 transform hover:-translate-y-1">
+                        Buy Now
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex items-center justify-center p-4 bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-bl-3xl md:rounded-l-none md:rounded-r-3xl">
+                <!-- Placeholder image for Product 1 -->
+                <img src="https://placehold.co/400x300/e0e7ff/4338ca?text=SuperPhone+X" alt="SuperPhone X" class="w-full h-auto object-contain rounded-2xl shadow-md">
+            </div>
+        </div>
 
-  <section class="cta">
-    <h2>Ready to Begin Your Journey?</h2>
-    <p>Start where you are. Use what you have. Do what you can. Your future is created by what you do today.</p>
-    <button class="cta-btn">Get Started Now</button>
-  </section>
+        <!-- Product 2: QuantumPods Pro -->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col md:flex-row">
+             <div class="md:w-1/2 flex items-center justify-center p-4 bg-gradient-to-br from-purple-50 to-purple-100 rounded-tr-3xl md:rounded-r-none md:rounded-l-3xl order-last md:order-first">
+                <!-- Placeholder image for Product 2 -->
+                <img src="https://placehold.co/400x300/ede9fe/6d28d9?text=QuantumPods+Pro" alt="QuantumPods Pro" class="w-full h-auto object-contain rounded-2xl shadow-md">
+            </div>
+            <div class="p-6 md:p-8 flex-1">
+                <h2 class="text-3xl font-bold text-gray-800 mb-3">QuantumPods Pro</h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Immerse yourself in unparalleled audio quality with QuantumPods Pro. Featuring advanced noise cancellation and spatial audio, these earbuds deliver a truly cinematic listening experience on the go.
+                </p>
+                <ul class="list-disc list-inside text-gray-700 mb-6 space-y-1">
+                    <li>Active Noise Cancellation</li>
+                    <li>Spatial Audio with Dynamic Head Tracking</li>
+                    <li>24-hour Battery with Charging Case</li>
+                    <li>Sweat and Water Resistant</li>
+                </ul>
+                <div class="flex items-center justify-between">
+                    <span class="text-4xl font-extrabold text-purple-700">$249</span>
+                    <a href="product2-details.html" class="bg-purple-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-purple-700 transition duration-300 transform hover:-translate-y-1">
+                        Buy Now
+                    </a>
+                </div>
+            </div>
+        </div>
 
-  <footer>
-    <p>© 2025 Inspire & Impact. All rights reserved.</p>
-  </footer>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="mt-12 text-center text-gray-500 text-sm">
+        <p>&copy; 2025 TechGadgets Inc. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
