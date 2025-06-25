@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inspire & Impact</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+
+    .about p, .cta p {
+      font-size: 1.1rem;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      color: #555;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .feature-card {
+      background: #f8f8f8;
+      padding: 30px;
+      border-radius: 10px;
+      width: 280px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature-card h3 {
+      color: #2980b9;
+      margin-bottom: 10px;
+    }
+
+    .feature-card p {
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+    .cta {
+      background: #ecf0f1;
+      padding: 60px 20px;
+      text-align: center;
+      margin-top: 40px;
+      border-top: 1px solid #ddd;
+    }
+
+    .cta h2 {
+      margin-bottom: 20px;
+      color: #34495e;
+    }
+
+    .cta-btn {
+      margin-top: 25px;
+      background: #2980b9;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .cta-btn:hover {
+      background: #1f6694;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 10px;
+      background: #2c3e50;
+      color: #ccc;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Inspire & Impact</h1>
+    <p>Empowering minds. Transforming lives. One step at a time.</p>
+  </header>
+
+  <section class="section about">
+    <h2>Our Mission</h2>
+    <p>
+      In a fast-paced world full of noise and distractions, we bring clarity and purpose. Our mission is to inspire individuals, elevate communities, and leave a meaningful impact through digital innovation, personal growth, and authentic connection.
+    </p>
+  </section>
+
+  <section class="section services">
+    <h2>What We Offer</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h3>Inspiring Content</h3>
+        <p>Daily blogs and resources to fuel your passion and purpose. Read, reflect, and grow with our community-driven insights.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Personal Coaching</h3>
+        <p>We help you define goals, break mental barriers, and unlock your full potential through structured and supportive guidance.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Digital Solutions</h3>
+        <p>From websites to branding — we craft experiences that resonate. Creative and functional design that tells your story.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to Begin Your Journey?</h2>
+    <p>Start where you are. Use what you have. Do what you can. Your future is created by what you do today.</p>
+    <button class="cta-btn">Get Started Now</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Inspire & Impact. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
